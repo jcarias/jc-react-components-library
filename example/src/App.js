@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'jc-react-components-library'
+import ExampleComponent, { StarRating } from "jc-react-components-library";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <StarRating />
+        <ExampleComponent text="Modern React component module" />
       </div>
-    )
+    );
   }
 }
